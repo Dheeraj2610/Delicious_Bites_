@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Delicious Bites</title>
+    <style>
+.top{
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvay02M2EtZHM1NTQ2NDUzNTM0NTM0Nl8yLmpwZw.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.overlay{
+    height: 92vh;
+    background-color: rgba(0, 0, 0, 0.423);
+    color: white;
+    text-align: center;
+   
+   padding: 50px;
+  
+}
+.overlay h2{
+    font-size: 5rem;
+    padding-top: 100px;
+}
+.overlay p{
+    font-size: 2rem;
+}
+.sec_2{
+    padding: 50px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1{
+    color: red;
+    font-style: italic;
+}
+.header h3{
+    font-weight: bold;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tablinks {
+    background-color: #888988;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    color: white;
+}
+
+.tablinks:hover {
+    background-color:green;
+}
+
+.tablinks.active {
+    background-color:green;
+}
+
+.tabcontent {
+    display: none;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.tabcontent .menu-item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.tabcontent .menu-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.tabcontent .item-details {
+    flex: 1;
+}
+
+.tabcontent .item-details h3 {
+    margin-top: 0;
+}
+
+.tabcontent .item-details p.price {
+    font-weight: bold;
+}
+
+.sec_vdo{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #b7b7b7;
+}
+.text-container{  
+    padding: 70px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+.video-container video {
+    height: 300px;
+    width: 300px;
+    border: 2px solid #fff; 
+    border-radius: 10px;
+}
+
+
+
+/* Footer styles */
+footer {
+         background-color: #555353;
+            padding: 10px 0;
+            margin-top: 50px;
+            color: white;
+        }
+
+        .footer_div {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+            padding-top: 20px;
+        }
+
+        .footer_div > div {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .footer_div > div:last-child {
+            margin-right: 0;
+        }
+
+        .footer_div span {
+            margin-bottom: 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="top">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(0, 0, 0, 0.541);" >
+           
+                <a class="navbar-brand" href="#">
+                    <img src="https://static.vecteezy.com/system/resources/previews/016/133/291/original/simple-illustration-of-food-delivery-and-restaurant-logo-design-inspiration-icon-vector.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Delicious Bites
+                  </a>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="">Log In</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">about Us</a>
+                  </li>
+                 
+                </ul>
+              </div>
+          </nav>
+          <div class="overlay">
+            <h2>Delicious Bytes</h2>
+            <p>The perfect place to taste</p>
+
+          </div>
+    </section>
+
+    <section class="sec_vdo">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UsD1MhKBmD4?si=B_8wmvDhHiOczrIR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="text-container">
+            <h1 style="color: #f10101;">Delicious Bytes</h1>
+            <p>All of them had hair of gold like their mother the youngest one in curls. black gold And if you threw a party invited everyone you knew.</p>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="sec_2">
+        <div class="header">
+            <h1>Hungry?</h1>
+            <h3>Our Menu</h3>
+
+        </div>
+
+        <div class="menu-container">
+            <div class="tabs">
+                <button class="tablinks" onclick="openCategory(event, 'Appetizers')" id="defaultOpen">Appetizers</button>
+                <button class="tablinks" onclick="openCategory(event, 'Entrees')">Entrees</button>
+                <button class="tablinks" onclick="openCategory(event, 'Desserts')">Desserts</button>
+                <button class="tablinks">Drinks</button>
+                <button class="tablinks">Breads</button>
+                <button class="tablinks">Continental</button>
+                <button class="tablinks">Chinese</button>
+                
+            </div>
+    
+            <div id="Appetizers" class="tabcontent">
+                <div class="menu-item">
+                    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chicken-with-crushed-harissa-chickpeas-f009cb0.jpg" alt="Bruschetta">
+                    <div class="item-details">
+                        <h3>Tarmaid Chicken</h3>
+                        <p>Grilled chicken topped with diced tomatoes, garlic, basil, and olive oil.</p>
+                        <p class="price"> ₹350.00</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-oQYxP3c_kRt9P7bZkEiQ3oNLKLXJElH-bQ&usqp=CAU" alt="Stuffed Mushrooms">
+                    <div class="item-details">
+                        <h3>Stuffed Mushrooms</h3>
+                        <p>Mushrooms stuffed with a blend of cheeses and herbs, baked to perfection.</p>
+                        <p class="price"> ₹250.50</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxdWvqs0NbRyiDervkHp1Li7hW_DULF_mpoRiXWxqD_e8kVQljDk5-dMWBmQUgMi9_1SU&usqp=CAU" alt="Stuffed Mushrooms">
+                    <div class="item-details">
+                        <h3>Ginger Chicken</h3>
+                        <p>Mushrooms stuffed with a blend of cheeses and herbs, baked to perfection.</p>
+                        <p class="price"> ₹300.50</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrd-Oiz0PSp5Fl_1QX9PXkM2eVExB3n44mH4F4x30V4uU8nqqOSB9VbZA7WS0PhM-08R8&usqp=CAU" alt="Stuffed Mushrooms">
+                    <div class="item-details">
+                        <h3>Mexican Chicken</h3>
+                        <p>Mushrooms stuffed with a blend of cheeses and herbs, baked to perfection.</p>
+                        <p class="price"> ₹400.00</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="Entrees" class="tabcontent">
+                <div class="menu-item">
+                    <img src="https://i.ytimg.com/vi/1LtXG6CQmZc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCbMu7GyfwSnB6RykccN6eacF_b8w" alt="Grilled Salmon">
+                    <div class="item-details">
+                        <h3>Grilled Salmon</h3>
+                        <p>Fresh salmon fillet grilled and served with a lemon butter sauce.</p>
+                        <p class="price"> ₹680.00</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://www.yummytummyaarthi.com/wp-content/uploads/2023/08/chicken-alfredo-1.jpeg" alt="Chicken Alfredo">
+                    <div class="item-details">
+                        <h3>Chicken Alfredo</h3>
+                        <p>Creamy Alfredo sauce served over fettuccine noodles with grilled chicken.</p>
+                        <p class="price"> ₹1500.00</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://rathis.food.blog/wp-content/uploads/2019/11/1.jpg?w=990" alt="">
+                    <div class="item-details">
+                        <h3>BDF</h3>
+                        <p>Creamy Alfredo sauce served over fettuccine noodles with grilled chicken.</p>
+                        <p class="price"> ₹500.00</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://www.chefajaychopra.com/assets/img/recipe/1-1665986104ChickenLollipopwebp.webp" alt="Chicken Alfredo">
+                    <div class="item-details">
+                        <h3>Chicken Lollipop</h3>
+                        <p>Creamy Alfredo sauce served over fettuccine noodles with grilled chicken.</p>
+                        <p class="price"> ₹500.00</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="Desserts" class="tabcontent">
+                <div class="menu-item">
+                    <img src="https://drivemehungry.com/wp-content/uploads/2022/07/strawberry-cheesecake-11.jpg" alt="Cheesecake">
+                    <div class="item-details">
+                        <h3>Cheesecake</h3>
+                        <p>Classic New York-style cheesecake with a graham cracker crust.</p>
+                        <p class="price"> ₹700.00</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://www.bakingo.com/blog/wp-content/uploads/2022/06/best-choco-lava-cake-recipe-ever-1200x900.jpg" alt="Chocolate Lava Cake">
+                    <div class="item-details">
+                        <h3>Chocolate Lava Cake</h3>
+                        <p>Warm chocolate cake with a molten chocolate center, served with vanilla ice cream.</p>
+                        <p class="price"> ₹800.50</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://m.media-amazon.com/images/I/41tadl6q1hL._AC_UF350,350_QL80_.jpg" alt="Chocolate Lava Cake">
+                    <div class="item-details">
+                        <h3>Dream cake</h3>
+                        <p>Warm chocolate cake with a molten chocolate center, served with vanilla ice cream.</p>
+                        <p class="price"> ₹800.50</p>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="https://cdn.quicksell.co/-MMpSad9FgzsoMWQHl8T/products/-NNl8Ymcviapp7YgJpoy.jpg" alt="Chocolate Lava Cake">
+                    <div class="item-details">
+                        <h3>Fruit cake</h3>
+                        <p>Warm chocolate cake with a molten chocolate center, served with vanilla ice cream.</p>
+                        <p class="price"> ₹800.50</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                
+    <footer>
+        <div class="footer_div">
+            <div>
+                <img src="https://static.vecteezy.com/system/resources/previews/016/133/291/original/simple-illustration-of-food-delivery-and-restaurant-logo-design-inspiration-icon-vector.jpg" width="30" height="30" class="d-inline-block align-top" width="30" height="30" class="d-inline-block align-top" alt=""><br>
+                <p>Delicious Bytes<p>
+                
+                    <a style="color: white;" href="">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="color: white;" href="" >
+                      <i class="fab fa-twitter"></i>
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="color: white;" href="" >
+                      <i class="fab fa-google"></i>
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="color: white;" href="" >
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    
+                  
+            </div>
+            <div>
+                <h6>Quick Links</h6>
+               <span>Home</span><br>
+               <span>Contact US</span><br>
+               <span>Register</span><br>
+               <span>Sitemap</span>
+            </div>
+            <div>
+                <h6>Branches</h6>
+               <span>Kollam</span><br>
+               <span>Ernakulam</span><br>
+               <span>Thiror</span><br>
+               <span>Chalakudi</span>
+            </div>
+            <div>
+                <h6>contact</h6>
+               <span>Mob:12345678867</span><br>
+               <span>Email:example@gmail.com</span><br>
+               <span><p>Address:Delicious Delight, Kottayam, kerala</p></span><br>
+             
+            </div>
+        </div>
+       
+            <div style="text-align: center;">
+              <span>Copyrights ©2024 Delicious Delight. Build by MashupTech</span>
+            </div>
+        
+    </footer>
+    <script>
+        function openCategory(evt, categoryName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(categoryName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        document.getElementById("defaultOpen").click();
+    </script>
+  
+</body>
+</html>
